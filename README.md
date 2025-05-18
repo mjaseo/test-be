@@ -75,7 +75,7 @@ assets/
 ---
 ## 🛠️ Development Notes
 
-# ✅ Gulp 4 Migration
+## ✅ Gulp 4 Migration
 Originally used Gulp 3.9.1, which caused this error with Node.js:
 ```apacheconf
 ReferenceError: primordials is not defined
