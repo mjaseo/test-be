@@ -1,7 +1,7 @@
 # Setup Process
 > IMPORTANT! This has been tested to run with `PHP 7.4 and 8.0` version! Later version might not work.
-## 1. Unzip the files
-> The zip file contains all the codes that has added and modified for the project specs to run including the base files.
+## 1. Clone the repository
+> Contains all the code updates from the base code provided.
 ## 2. Setup the database
 > Edit `application/config/database.php` and fill in your DB connection config.
 
