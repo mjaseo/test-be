@@ -17,12 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-//$config['base_url']	= ((isset($_SERVER['HTTPS']))? 'https://' : 'http://'). $_SERVER['HTTP_HOST'] .'/';
-if (php_sapi_name() === 'cli') {
-    $config['base_url'] = 'http://test-be-2.test/';  // fallback value for CLI
-} else {
-    $config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . '/';
-}
+$config['base_url']	= ((isset($_SERVER['HTTPS']))? 'https://' : 'http://'). $_SERVER['HTTP_HOST'] .'/';
 
 /*
 |--------------------------------------------------------------------------

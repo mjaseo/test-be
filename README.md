@@ -15,7 +15,11 @@ After running, you should see:
 Migration completed successfully.
 ```
 ## 4. Project should be ready
-Visit the project via web browser and it should load up with issue.
+You can visit this pages locally: 
+
+```http://your-local-domain/register``` 
+
+```http://your-local-domain/log-in```
 > For specific errors, please refer to the SCSS compilation workflow and development notes below.
 ---
 
